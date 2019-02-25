@@ -1,0 +1,50 @@
+syntax = "proto3";
+
+package Library;
+
+service LibraryService {
+    rpc CheckoutBook(Book) returns (BookRequestResult);
+    rpc CheckAvailibilty(Book) returns (BookAvailibilty);
+    rpc WaitFor(Book) returns (stream BookRequestResult);
+    rpc ReturnBook(Book) returns (Empty);
+    rpc Search(stream BookSearchRequest) returns (stream Books);
+}
+
+message Empty {}
+
+message Book {
+    string title = 0;
+    string author = 1;
+    int32 id = 2;
+    bool isAvailable = 3;
+    bool isReserved = 4;
+    string genre = 5;
+}
+
+
+message Books {
+    repeated Book books = 0;
+    enum State {
+        CHECKED_OUT = 0;
+        RETURNED = 1;
+        NOTHING = 2;
+    }
+    State state = 1;
+}
+
+message BookRequestResult {
+    Book book = 0;
+    bool didCheckout = 1;
+}
+
+message BookAvailibilty {
+    Book book = 0;
+    bool isAvailable = 1;
+}
+
+message BookSearchRequest {
+    optional string title = 0;
+    optional string author = 1;
+    optional string genre = 2;
+}
+

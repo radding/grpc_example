@@ -1,0 +1,16 @@
+{
+  "name": "grpc_example",
+  "version": "1.0.0",
+  "description": "An example setting up a node grpc client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "checkout:1": "sorcersstone.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.4.0",
+    "grpc": "^1.18.0"
+  }
+}

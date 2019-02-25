@@ -1,0 +1,84 @@
+{
+    "books": [
+        {
+            "title": "Harry Potter and the Sorcerer's Stone",
+            "author": "J.K. Rowling",
+            "genre": "Fantasy",
+            "id": 1,
+            "isAvailable": true,
+            "isReserved": false
+        },
+        {
+            "title": "Harry Potter and the Chamber of Secrets",
+            "author": "J.K. Rowling",
+            "genre": "Fantasy",
+            "id": 2,
+            "isAvailable": true,
+            "isReserved": false
+        },
+        {
+            "title": "Harry Potter and the Prisoner of Azkaban",
+            "author": "J.K. Rowling",
+            "genre": "Fantasy",
+            "id": 3,
+            "isAvailable": true,
+            "isReserved": false
+        },
+        {
+            "title": "Harry Potter and the Goblet of Fire",
+            "author": "J.K. Rowling",
+            "genre": "Fantasy",
+            "id": 4,
+            "isAvailable": true,
+            "isReserved": false
+        },
+        {
+            "title": "Harry Potter and the Goblet of Fire",
+            "author": "J.K. Rowling",
+            "genre": "Fantasy",
+            "id": 4,
+            "isAvailable": true,
+            "isReserved": false
+        },
+        {
+            "title": "Harry Potter and the Order of the Pheonix",
+            "author": "J.K. Rowling",
+            "genre": "Fantasy",
+            "id": 5,
+            "isAvailable": true,
+            "isReserved": false
+        },
+        {
+            "title": "Harry Potter and the Half Blood Prince",
+            "author": "J.K. Rowling",
+            "genre": "Fantasy",
+            "id": 5,
+            "isAvailable": true,
+            "isReserved": false
+        },
+        {
+            "title": "Harry Potter and the Dealthy Hollows",
+            "author": "J.K. Rowling",
+            "genre": "Fantasy",
+            "id": 6,
+            "isAvailable": true,
+            "isReserved": false
+        },
+        {
+            "title": "Harry Potter and the Cursed Child",
+            "author": "J.K. Rowling",
+            "genre": "Fantasy",
+            "id": 6,
+            "isAvailable": true,
+            "isReserved": false
+        },
+        {
+            "title": "Do Androids Dream of Electric Sheep?",
+            "author": "Phillip K. Dick",
+            "genre": "SciFi",
+            "id": 6,
+            "isAvailable": true,
+            "isReserved": false
+        }
+    ]
+}
